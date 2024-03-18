@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers Orders</title>
+</head>
+<style>
+    body {
+        height: 900px;
+        background-image: radial-gradient(blue, lime, red);
+    }
+   .order img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .order a{
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+        text-align: center;
+
+    }
+    .order span{
+        margin-left: 10px;
+        line-height: 40px;
+
+    }
+    .order table{
+        border-collapse: collapse;
+        width: 40%;
+        margin: 30px;
+    }
+    .order td {
+	padding: 10px;
+	text-align: left;
+   
+    }
+
+    .order th {
+        background-color: black;
+        color: yellow;
+        text-align: center;
+        padding: 10px;
+    }   
+    .even {
+        background-color:#BBA39D;
+    }
+    .order .odd{
+        background-color: #D1C9C7;
+    }
+  
+    
+
+</style>
+<body>
+    <div class="order">
+        <table>
+
+            <thead>
+                <tr>
+                <th>id</th>
+                <th>Customer</th>
+                <th>Location</th>
+                <th>Order Date</th>
+                <th>Status</th>
+                <th>Amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                    <tr class="odd">
+                        <td>1</td>
+                        <td>
+                            <img src="images/tom.png" alt="">
+                            <span>Tom</span> 
+                        </td>
+                        <td>Seoul</td>
+                        <td>06 Mar 2024</td>
+                        <td>
+                            <a href="#" style="background-color: lime; color: green;" >Delivered</a>
+                        </td>
+                        <td>
+                            <b>500</b>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td>2</td>
+                        <td>
+                            <img src="images/jerry.png" alt="">
+                            <span>Jerry</span> 
+                        </td>
+                        <td>Paris</td>
+                        <td>08 Mar 2024</td>
+                        <td>
+                            <a href="#" style="background-color: skyblue; color: blue;">Shipped</a>
+                        </td>
+                        <td>
+                            <b>1500</b>
+                        </td>
+                    </tr>
+
+                    <tr class="odd">   
+                        <td>3</td>
+                        <td>
+                            <img src="images/spike.png" alt="">
+                            <span>Spike</span> 
+                        </td>
+                        <td>Tokyo</td>
+                        <td>10 Mar 2024</td>
+                        <td>
+                            <a href="#" style="background-color: #E56E55 ; color: red;">Cancelled</a>
+                        </td>
+                        <td>
+                            <b>2000</b>
+                        </td>
+                        
+                    </tr>
+
+                    <tr class="even">
+                        
+                        <td>4</td>
+                        <td>
+                            <img src="images/tomandjerry.png" alt="">
+                            <span>Tom & Jerry</span> 
+                        </td>
+                        <td>Seoul</td>
+                        <td>12 Mar 2024</td>
+                        <td>
+                            <a href="#" style="background-color: gold ; color: goldenrod;">Pending</a>
+                        </td>
+                        <td>
+                            <b>10000</b>
+                        </td>
+                        
+                    </tr>
+                </tbody>    
+             </table>
+        </table>
+    </div>
+</body>
+</html>

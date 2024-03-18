@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<style>
+
+    .red-button{
+        background-color: red;
+        color: #fff;
+    }
+    .blue-button{
+        background-color: teal;
+        color: #fff;
+    }
+    .red-border{
+        border: red 3px solid;
+    }
+    input{
+        background-color: blanchedalmond;
+    }
+    h1{
+        background-color: lime;
+        border: 3px solid orangered;
+        width: 15%;
+    }
+
+    .card{
+        display: inline-block;
+        background-color: yellow;
+        width: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .card a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .card img{
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .card .card-content{
+        padding: 5px;
+        font-size: 10px;
+        color: black;
+        font-style: italic;
+        line-height: 12px;
+    }
+
+</style>
+<body>
+    <h1>Basic Styling in CSS</h1>
+
+    <button style="background-color: yellowgreen;">Button 1</button>
+    <button class="red-button blue-button">Button 2</button>
+    <button class="red-border blue-button">Button 3</button>
+
+    <p class="red-button red-border">
+        HTML color codes are hexadecimal triplets representing the colors red, green, and blue (#RRGGBB). For example, in the color red, the color code is #FF0000, which is '255' red, '0' green, and '0' blue. There are 16,777,216 possible HTML color codes, and all are visible on a 24-bit display. 
+        <br>
+        These color codes can change the color of the background, text, and tables on a web page. They can also reference exact colors in photo editing programs like Adobe Photoshop.
+    </p>
+
+    <input type="text">
+    <input type="time">
+    <input type="date">
+
+    <hr><hr>
+
+    <div class="card">
+        <a href="#">
+            <img src="images/tomandjerry.png" alt="">
+            <div class="card-content">
+                <span>Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera.</span>
+            </div>    
+        </a>
+    </div>
+
+</body>
+</html>
